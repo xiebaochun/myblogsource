@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: web | 前端艺术]]></title>
+  <link href="http://xiebaochun.github.io/blog/categories/web/atom.xml" rel="self"/>
+  <link href="http://xiebaochun.github.io/"/>
+  <updated>2014-01-22T15:43:54+08:00</updated>
+  <id>http://xiebaochun.github.io/</id>
+  <author>
+    <name><![CDATA[Nicholas]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2013电商网站设计（E-Commerce Website Designs 2013）]]></title>
+    <link href="http://xiebaochun.github.io/blog/2013/11/11/e-commerce-website-designs-2013/"/>
+    <updated>2013-11-11T14:00:00+08:00</updated>
+    <id>http://xiebaochun.github.io/blog/2013/11/11/e-commerce-website-designs-2013</id>
+    <content type="html"><![CDATA[<p><img src="http://www.script-tutorials.com/demos/365/thumb.png" alt="" /></p>
+
+<p>原文地址：<a href="http://www.script-tutorials.com/e-commerce-website-designs-2013/">http://www.script-tutorials.com/e-commerce-website-designs-2013/</a></p>
+
+<p>译者：子龙山人</p>
+
+<!--more-->
+
+<p>今天我想讨论的主题是电商，准确的说是探索一个关于在线商店设计思想。
+在线商店的主人偶尔需要更新网站的设计，这里我想起了响应式模板和移动技术。每个人都知道移动技术正在快速的发展，几乎人人都有一部手机。响应式设计给我们提供了巨大的机会：网站访问的频率和增加的规模。在今天的文章中，我挑选了一些很有趣的响应式模板网站。</p>
+
+<p>1.USM Modular Furniture</p>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img1.jpg" alt="" /></p>
+
+<p>2.Bold &amp; Noble</p>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img2.jpg" alt="" /></p>
+
+<p>3.Greats Brand</p>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img3.jpg" alt="" /></p>
+
+<ol>
+  <li>Create and customize your own cube</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img4.jpg" alt="" /></p>
+
+<ol>
+  <li>The Gadget Flow</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img5.jpg" alt="" /></p>
+
+<ol>
+  <li>Snipcart</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img6.jpg" alt="" /></p>
+
+<ol>
+  <li>Noodlebox</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img7.jpg" alt="" /></p>
+
+<ol>
+  <li>Burberry</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img8.jpg" alt="" /></p>
+
+<ol>
+  <li>Folksy</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img9.jpg" alt="" /></p>
+
+<ol>
+  <li>Sneaker District</li>
+</ol>
+
+<p><img src="http://www.script-tutorials.com/demos/365/img10.jpg" alt="" /></p>
+
+<p>总结：</p>
+
+<p>今天主要是收集了一些比较有趣的网站主题，感谢你的欣赏。如果你觉得这篇文章不错的话请你使用下面的社交平台将其分享给你的好友吧！</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[制作旋转CSS3下拉菜单（whirling CSS3 dropdown menu）]]></title>
+    <link href="http://xiebaochun.github.io/blog/2013/11/04/whirling-css3-dropdown-menu/"/>
+    <updated>2013-11-04T14:39:00+08:00</updated>
+    <id>http://xiebaochun.github.io/blog/2013/11/04/whirling-css3-dropdown-menu</id>
+    <content type="html"><![CDATA[<p><img src="http://www.script-tutorials.com/demos/364/thumb.png" alt="" /></p>
+
+<p>原文地址：<a href="http://www.script-tutorials.com/whirling-dropdown-menu/">http://www.script-tutorials.com/whirling-dropdown-menu/</a></p>
+
+<p>译者：<a href="http://xiebaochun.github.io/">晋文格墨</a></p>
+
+<!--more-->
+
+<p>很多下拉菜单都可以通过css3的选择器轻松实现。只要稍微激发一下你的创作灵感，你就可以做出一个真实而独特的设计。在今天的教程中，我们将创建一个特别的css3下拉菜单，当鼠标移动到父级菜单项时将会呈现新的下拉特效，子菜单项将会以旋转的方式出现。只要一步一步地跟着本教程就能创建这个菜单。</p>
+
+<h3 id="section">预览：</h3>
+
+<p><img src="http://www.script-tutorials.com/demos/364/menu.png" alt="" /></p>
+
+<p><a href="http://www.script-tutorials.com/demos/364/index.html">在线演示</a></p>
+
+<p><a href="http://www.script-tutorials.com/demos/364/source.zip">下载DEMO</a></p>
+
+<h3 id="html">步骤 1.HTML</h3>
+
+<p>首先需要为css菜单建一个HTML结构。和大部分下拉菜单类似，这是一个UL-LI结构的下拉菜单。下面是此菜单的HTML代码。</p>
+
+<p>index.html</p>
+
+<pre><code>&lt;ul class="menu"&gt;
+&lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#s1"&gt;Menu 1&lt;/a&gt;
+    &lt;ul class="submenu"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu a&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu b&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu c&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu d&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu e&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu f&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu g&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu h&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="active"&gt;&lt;a href="#s2"&gt;Menu 2&lt;/a&gt;
+    &lt;ul class="submenu"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu a&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu b&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu c&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu d&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu e&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu f&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu g&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu h&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Menu 3&lt;/a&gt;
+    &lt;ul class="submenu"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu a&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu b&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu c&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu d&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu e&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu f&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu g&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Submenu h&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Menu 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.script-tutorials.com/whirling-dropdown-menu/"&gt;Back to tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3 id="css">步骤 2.CSS</h3>
+
+<p>css/main.css</p>
+
+<pre><code>.menu, .menu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.menu {
+height: 58px;
+}
+.menu li {
+background: -moz-linear-gradient(#292929, #252525);
+background: -ms-linear-gradient(#292929, #252525);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #292929), color-stop(100%, #252525));
+background: -webkit-linear-gradient(#292929, #252525);
+background: -o-linear-gradient(#292929, #252525);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525')";
+background: linear-gradient(#292929, #252525);
+
+border-bottom: 2px solid #181818;
+border-top: 2px solid #303030;
+min-width: 160px;
+}
+.menu &gt; li {
+display: block;
+float: left;
+position: relative;
+}
+.menu &gt; li:first-child {
+border-radius: 5px 0 0;
+}
+.menu a {
+border-left: 3px solid rgba(0, 0, 0, 0);
+color: #808080;
+display: block;
+font-family: 'Lucida Console';
+font-size: 18px;
+line-height: 54px;
+padding: 0 25px;
+text-decoration: none;
+text-transform: uppercase;
+}
+</code></pre>
+
+<p>当鼠标移动到某个菜单项上时，将其高亮。</p>
+
+<pre><code>.menu li:hover {
+background-color: #1c1c1c;
+background: -moz-linear-gradient(#1c1c1c, #1b1b1b);
+background: -ms-linear-gradient(#1c1c1c, #1b1b1b);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c1c1c), color-stop(100%, #1b1b1b));
+background: -webkit-linear-gradient(#1c1c1c, #1b1b1b);
+background: -o-linear-gradient(#1c1c1c, #1b1b1b);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b')";
+background: linear-gradient(#1c1c1c, #1b1b1b);
+
+border-bottom: 2px solid #222222;
+border-top: 2px solid #1B1B1B;
+}
+.menu li:hover &gt; a {
+border-radius: 5px 0 0 0;
+border-left: 3px solid #C4302B;
+color: #C4302B;
+}
+</code></pre>
+
+<p>子菜单项默认是隐藏的，并且它的元素被选择了90度。当鼠标悬停在父级菜单项时，子菜单将显示它的所有菜单项。</p>
+
+<pre><code>/* submenu styles */
+.submenu {
+left: 0;
+max-height: 0;
+position: absolute;
+top: 100%;
+z-index: 0;
+
+-webkit-perspective: 400px;
+-moz-perspective: 400px;
+-ms-perspective: 400px;
+-o-perspective: 400px;
+perspective: 400px;
+}
+.submenu li {
+opacity: 0;
+
+-webkit-transform: rotateY(90deg);
+-moz-transform: rotateY(90deg);
+-ms-transform: rotateY(90deg);
+-o-transform: rotateY(90deg);
+transform: rotateY(90deg);
+
+-webkit-transition: opacity .4s, -webkit-transform .5s;
+-moz-transition: opacity .4s, -moz-transform .5s;
+-ms-transition: opacity .4s, -ms-transform .5s;
+-o-transition: opacity .4s, -o-transform .5s;
+transition: opacity .4s, transform .5s;
+}
+.menu .submenu li:hover a {
+border-left: 3px solid #454545;
+border-radius: 0;
+color: #ffffff;
+}
+.menu &gt; li:hover .submenu, .menu &gt; li:focus .submenu {
+max-height: 2000px;
+z-index: 10;
+}
+.menu &gt; li:hover .submenu li, .menu &gt; li:focus .submenu li {
+opacity: 1;
+
+-webkit-transform: none;
+-moz-transform: none;
+-ms-transform: none;
+-o-transform: none;
+transform: none;
+}
+</code></pre>
+
+<p>最后，为了使其更特别一点，给每个子菜单项添加一些延迟，这样他们就会依次显示出来。</p>
+
+<pre><code>/* CSS3 delays for transition effects */
+.menu li:hover .submenu li:nth-child(1) {
+-webkit-transition-delay: 0s;
+-moz-transition-delay: 0s;
+-ms-transition-delay: 0s;
+-o-transition-delay: 0s;
+transition-delay: 0s;
+}
+.menu li:hover .submenu li:nth-child(2) {
+-webkit-transition-delay: 50ms;
+-moz-transition-delay: 50ms;
+-ms-transition-delay: 50ms;
+-o-transition-delay: 50ms;
+transition-delay: 50ms;
+}
+.menu li:hover .submenu li:nth-child(3) {
+-webkit-transition-delay: 100ms;
+-moz-transition-delay: 100ms;
+-ms-transition-delay: 100ms;
+-o-transition-delay: 100ms;
+transition-delay: 100ms;
+}
+.menu li:hover .submenu li:nth-child(4) {
+-webkit-transition-delay: 150ms;
+-moz-transition-delay: 150ms;
+-ms-transition-delay: 150ms;
+-o-transition-delay: 150ms;
+transition-delay: 150ms;
+}
+.menu li:hover .submenu li:nth-child(5) {
+-webkit-transition-delay: 200ms;
+-moz-transition-delay: 200ms;
+-ms-transition-delay: 200ms;
+-o-transition-delay: 200ms;
+transition-delay: 200ms;
+}
+.menu li:hover .submenu li:nth-child(6) {
+-webkit-transition-delay: 250ms;
+-moz-transition-delay: 250ms;
+-ms-transition-delay: 250ms;
+-o-transition-delay: 250ms;
+transition-delay: 250ms;
+}
+.menu li:hover .submenu li:nth-child(7) {
+-webkit-transition-delay: 300ms;
+-moz-transition-delay: 300ms;
+-ms-transition-delay: 300ms;
+-o-transition-delay: 300ms;
+transition-delay: 300ms;
+}
+.menu li:hover .submenu li:nth-child(8) {
+-webkit-transition-delay: 350ms;
+-moz-transition-delay: 350ms;
+-ms-transition-delay: 350ms;
+-o-transition-delay: 350ms;
+transition-delay: 350ms;
+}
+
+.submenu li:nth-child(1) {
+-webkit-transition-delay: 350ms;
+-moz-transition-delay: 350ms;
+-ms-transition-delay: 350ms;
+-o-transition-delay: 350ms;
+transition-delay: 350ms;
+}
+.submenu li:nth-child(2) {
+-webkit-transition-delay: 300ms;
+-moz-transition-delay: 300ms;
+-ms-transition-delay: 300ms;
+-o-transition-delay: 300ms;
+transition-delay: 300ms;
+}
+.submenu li:nth-child(3) {
+-webkit-transition-delay: 250ms;
+-moz-transition-delay: 250ms;
+-ms-transition-delay: 250ms;
+-o-transition-delay: 250ms;
+transition-delay: 250ms;
+}
+.submenu li:nth-child(4) {
+-webkit-transition-delay: 200ms;
+-moz-transition-delay: 200ms;
+-ms-transition-delay: 200ms;
+-o-transition-delay: 200ms;
+transition-delay: 200ms;
+}
+.submenu li:nth-child(5) {
+-webkit-transition-delay: 150ms;
+-moz-transition-delay: 150ms;
+-ms-transition-delay: 150ms;
+-o-transition-delay: 150ms;
+transition-delay: 150ms;
+}
+.submenu li:nth-child(6) {
+-webkit-transition-delay: 100ms;
+-moz-transition-delay: 100ms;
+-ms-transition-delay: 100ms;
+-o-transition-delay: 100ms;
+transition-delay: 100ms;
+}
+.submenu li:nth-child(7) {
+-webkit-transition-delay: 50ms;
+-moz-transition-delay: 50ms;
+-ms-transition-delay: 50ms;
+-o-transition-delay: 50ms;
+transition-delay: 50ms;
+}
+.submenu li:nth-child(8) {
+-webkit-transition-delay: 0s;
+-moz-transition-delay: 0s;
+-ms-transition-delay: 0s;
+-o-transition-delay: 0s;
+transition-delay: 0s;
+}
+</code></pre>
+
+<p><a href="http://www.script-tutorials.com/demos/364/index.html">在线演示</a></p>
+
+<p><a href="http://www.script-tutorials.com/demos/364/source.zip">下载DEMO</a></p>
+
+<h3 id="section-1">总结:</h3>
+
+<p>我们只是随意地制作了一个css3下拉菜单。谢谢你耐心看完本教程，如果你喜欢今天的主题，请使用下面的社交平台将其分享给你的朋友吧！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[（学习网址大全）learning sites collection]]></title>
+    <link href="http://xiebaochun.github.io/blog/2013/10/30/learning-sites-collection/"/>
+    <updated>2013-10-30T16:54:00+08:00</updated>
+    <id>http://xiebaochun.github.io/blog/2013/10/30/learning-sites-collection</id>
+    <content type="html"><![CDATA[<p>更新by：me</p>
+
+<!--more-->
+
+<p><a href="http://www.homeandlearn.co.uk/php/php.html">free PHP TUtorials</a></p>
+
+<p><a href="http://www.script-tutorials.com/">Script Tutorials</a></p>
+
+<p><a href="http://blogs.msdn.com/b/davrous/">sharing about HTML5, Windows 8 &amp; Gaming</a></p>
+
+<p><a href="http://www.w3.org/">http://www.w3.org/</a></p>
+
+<p><a href="http://www.createjs.com/#!/CreateJS">http://www.createjs.com/#!/CreateJS</a></p>
+
+<p><a href="http://www.guokr.com/">果壳科技有意思</a></p>
+
+<p><a href="http://www.raywenderlich.com/">Tutorials for iPhone / iOS Developers and Gamers</a></p>
+
+<p><a href="https://developer.apple.com/">apple developer center</a></p>
+
+<p><a href="http://blog.csdn.net/wlqf366">PHP实战（微凉的CSDN Blog）</a></p>
+
+<p><a href="http://blog.csdn.net/poem_qianmo/">C++游戏编程（浅墨的csdn Blog)</a></p>
+
+<p><a href="http://www.directxtutorial.com/">Directx教程（外文网站）</a></p>
+
+<p><a href="http://www.v2ex.com/">V2EX 是一个关于分享和探索的地方</a></p>
+
+<p><a href="http://jsfiddle.net/simurai/CGmCe/">hubsample（html+css+javascript在线工具）</a></p>
+
+<p>http://www.hotscripts.com/category/scripts/html5/html5-applications/html5-video-players/</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[制作HTML5音频播放器（HTML5 Audio Player With playlist）]]></title>
+    <link href="http://xiebaochun.github.io/blog/2013/10/30/html5-audio-player-with-playlist/"/>
+    <updated>2013-10-30T11:02:00+08:00</updated>
+    <id>http://xiebaochun.github.io/blog/2013/10/30/html5-audio-player-with-playlist</id>
+    <content type="html"><![CDATA[<p><img src="http://www.script-tutorials.com/demos/363/thumb.png" alt="" /></p>
+
+<p>原文：<a href="http://www.script-tutorials.com/html5-audio-player-with-playlist/">http://www.script-tutorials.com/html5-audio-player-with-playlist/</a></p>
+
+<p>译者：<a href="http://xiebaochun.github.io/">晋文格墨</a></p>
+
+<!--more-->
+
+<p>也许对于很多人来说这是人生中第一次制作音频播放器。通常你会选择一个可用的播放器，一般是flash播放器。但是你也许已经发现，flash播放器在移动设备（如iPhone/Android)上不能很好的工作。今天，我将教你如何使用HTML5技术制作你自己的音频播放器。这个播放器包含了以下元素：title(标题），author(作家），cover（封面），基本的控制（播放/暂停，前进/后退），两个滑动条（jQuery UI sliders）:音量滑动条和一个歌曲跟踪器(song tracker)，还有一个歌曲列表。</p>
+
+<h3 id="section">预览</h3>
+
+<p><a href="http://www.script-tutorials.com/demos/363/">在线演示</a></p>
+
+<p><a href="http://www.script-tutorials.com/demos/363/source.zip">下载例子</a></p>
+
+<p>我相信你应该知道如何使用<audio>这个标准的标签来创建一个简单的音频播放器。在本教程里，我们会使用一个特殊的标签，我将使用所有所需的控制元素来创建我们的播放器。我们将会使用javascript写好的一个音频元素的事件处理来控制这个播放器。</audio></p>
+
+<h3 id="html">步骤1，HTML</h3>
+
+<p>像往常一样，我们需要在head部分包含几个文件。</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8" /&gt;
+&lt;meta name="author" content="Script Tutorials" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /&gt;
+&lt;title&gt;HTML5 Audio player with playlist | Script Tutorials&lt;/title&gt;
+
+&lt;!-- add styles and scripts --&gt;
+&lt;link href="css/styles.css" rel="stylesheet" type="text/css" /&gt;
+&lt;script type="text/javascript" src="js/jquery-1.7.2.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/main.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+</code></pre>
+
+<p>现在看一下播放器的标签。</p>
+
+<pre><code>&lt;div class="player"&gt;
+&lt;div class="pl"&gt;&lt;/div&gt;
+&lt;div class="title"&gt;&lt;/div&gt;
+&lt;div class="artist"&gt;&lt;/div&gt;
+&lt;div class="cover"&gt;&lt;/div&gt;
+&lt;div class="controls"&gt;
+&lt;div class="play"&gt;&lt;/div&gt;
+&lt;div class="pause"&gt;&lt;/div&gt;
+&lt;div class="rew"&gt;&lt;/div&gt;
+&lt;div class="fwd"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="volume"&gt;&lt;/div&gt;
+&lt;div class="tracker"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="playlist hidden"&gt;
+&lt;li audiourl="01.mp3" cover="cover1.jpg" artist="Artist 1"&gt;01.mp3&lt;/li&gt;
+&lt;li audiourl="02.mp3" cover="cover2.jpg" artist="Artist 2"&gt;02.mp3&lt;/li&gt;
+&lt;li audiourl="03.mp3" cover="cover3.jpg" artist="Artist 3"&gt;03.mp3&lt;/li&gt;
+&lt;li audiourl="04.mp3" cover="cover4.jpg" artist="Artist 4"&gt;04.mp3&lt;/li&gt;
+&lt;li audiourl="05.mp3" cover="cover5.jpg" artist="Artist 5"&gt;05.mp3&lt;/li&gt;
+&lt;li audiourl="06.mp3" cover="cover6.jpg" artist="Artist 6"&gt;06.mp3&lt;/li&gt;
+&lt;li audiourl="07.mp3" cover="cover7.jpg" artist="Artist 7"&gt;07.mp3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3 id="css">步骤2.CSS</h3>
+
+<p>现在可以将赤裸裸的HTML5文件变成漂亮的播放器了，为此，我们需要为每个元素定义样式。</p>
+
+<p>css/styles.css</p>
+
+<pre><code>.example {
+margin: 50px auto 0;
+width: 400px;
+}
+.player {
+background: transparent url("../images/spr.png") no-repeat scroll center top;
+height: 162px;
+position: relative;
+width: 326px;
+z-index: 2;
+}
+.title, .artist {
+font-family: verdana;
+left: 167px;
+position: absolute;
+
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.title {
+color: #FFFFFF;
+font-size: 14px;
+font-weight: bold;
+top: 23px;
+}
+.artist {
+color: #EEEEEE;
+font-size: 12px;
+top: 40px;
+}
+.pl {
+background: transparent url("../images/spr.png") no-repeat scroll -274px -175px;
+cursor: pointer;
+height: 34px;
+left: 270px;
+position: absolute;
+top: 20px;
+width: 32px;
+}
+.pl:hover {
+top: 21px;
+}
+.cover {
+background: transparent url(../data/cover1.jpg) no-repeat scroll center top;
+border-radius: 5px 5px 5px 5px;
+height: 94px;
+left: 20px;
+position: absolute;
+top: 20px;
+width: 94px;
+}
+.controls {
+cursor: pointer;
+height: 23px;
+left: 167px;
+position: absolute;
+top: 65px;
+width: 138px;
+}
+.controls .play, .controls .pause, .controls .rew, .controls .fwd {
+background: transparent url("../images/spr.png") no-repeat scroll 0 0;
+float: left;
+height: 100%;
+width: 33%;
+}
+.controls .play {
+background-position: -8px -171px;
+}
+.controls .pause {
+background-position: -8px -198px;
+display: none;
+}
+.controls .rew {
+background-position: -54px -171px;
+}
+.controls .fwd {
+background-position: -100px -171px;
+}
+.controls .play:hover {
+background-position: -8px -170px;
+}
+.controls .pause:hover {
+background-position: -8px -197px;
+}
+.controls .rew:hover {
+background-position: -54px -170px;
+}
+.controls .fwd:hover {
+background-position: -100px -170px;
+}
+.hidden {
+display: none;
+}
+.controls .visible {
+display: block;
+}
+.volume {
+height: 11px;
+left: 186px;
+position: absolute;
+top: 96px;
+width: 112px;
+}
+.tracker {
+height: 15px;
+left: 20px;
+position: absolute;
+top: 126px;
+width: 285px;
+}
+.ui-slider-range {
+background: transparent url("../images/spr.png") no-repeat scroll 5px -222px;
+height: 100%;
+position: absolute;
+top: 0;
+}
+.ui-slider-handle {
+cursor: pointer;
+height: 10px;
+margin-left: -5px;
+position: absolute;
+top: 2px;
+width: 10px;
+z-index: 2;
+}
+.volume .ui-slider-handle {
+background: url("../images/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
+height: 13px;
+width: 13px;
+}
+.playlist {
+background-color: #333333;
+border-radius: 5px 5px 5px 5px;
+list-style-type: none;
+margin: -10px 0 0 2px;
+padding-bottom: 10px;
+padding-top: 15px;
+position: relative;
+width: 326px;
+z-index: 1;
+}
+.playlist li {
+color: #EEEEEE;
+cursor: pointer;
+margin: 0 0 5px 15px;
+}
+.playlist li.active {
+font-weight: bold;
+}
+</code></pre>
+
+<h3 id="javascript">步骤3.JavaScript</h3>
+
+<p>现在这个漂亮的播放器还不能做任何事情-不可用的状态。为了让其能正常工作，你需要为其添加一些事件和方法。首先，我们需要初始化几个变量。</p>
+
+<p>js/main.js</p>
+
+<pre><code>// inner variables
+var song;
+var tracker = $('.tracker');
+var volume = $('.volume');
+
+// initialization - first element in playlist
+initAudio($('.playlist li:first-child'));
+
+// set volume
+song.volume = 0.8;
+
+// initialize the volume slider
+volume.slider({
+range: 'min',
+min: 1,
+max: 100,
+value: 80,
+start: function(event,ui) {},
+slide: function(event, ui) {
+song.volume = ui.value / 100;
+},
+stop: function(event,ui) {},
+});
+
+// empty tracker slider
+tracker.slider({
+range: 'min',
+min: 0, max: 10,
+start: function(event,ui) {},
+slide: function(event, ui) {
+song.currentTime = ui.value;
+},
+stop: function(event,ui) {}
+});
+</code></pre>
+
+<p>然后为控制按钮添加事件处理。play和Pause按钮。</p>
+
+<pre><code>// play click
+$('.play').click(function (e) {
+e.preventDefault();
+
+playAudio();
+});
+
+// pause click
+$('.pause').click(function (e) {
+e.preventDefault();
+
+stopAudio();
+});
+</code></pre>
+
+<p>为了切换列表的歌曲，我们需要停止当前播放的歌曲，选择列表里的下一首（或者上一首），并重新初始化我们的Audio元素。Forward/Rewind按钮。</p>
+
+<pre><code>// forward click
+$('.fwd').click(function (e) {
+e.preventDefault();
+
+stopAudio();
+
+var next = $('.playlist li.active').next();
+if (next.length == 0) {
+next = $('.playlist li:first-child');
+}
+initAudio(next);
+});
+
+// rewind click
+$('.rew').click(function (e) {
+e.preventDefault();
+
+stopAudio();
+
+var prev = $('.playlist li.active').prev();
+if (prev.length == 0) {
+prev = $('.playlist li:last-child');
+}
+initAudio(prev);
+});
+</code></pre>
+
+<p>最后，就是一些处理歌曲列表的函数。</p>
+
+<pre><code>// show playlist
+$('.pl').click(function (e) {
+e.preventDefault();
+
+$('.playlist').fadeIn(300);
+});
+
+// playlist elements - click
+$('.playlist li').click(function () {
+stopAudio();
+initAudio($(this));
+});
+</code></pre>
+
+<h3 id="images">步骤4.Images</h3>
+
+<p>所有的用到的图片（images)都打包到一个叫nav.png的sprite（图片）文件里。</p>
+
+<p><img src="http://www.script-tutorials.com/demos/363/images/spr.png" alt="" /></p>
+
+<p><a href="http://www.script-tutorials.com/demos/363/">在线演示</a></p>
+
+<p><a href="http://www.script-tutorials.com/demos/363/source.zip">下载DEMO</a></p>
+
+<h3 id="section-1">结语：</h3>
+
+<p>这就是今天所有的内容，我们只是制作了一个有趣的音频播放器。感谢您耐心看完本教程，如果你喜欢此文章的话，请使用下面提供的社交平台分享给你所有的朋友吧！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Unifying touch and mouse:how Pointer Envents will make cross-browser touch support easy]]></title>
+    <link href="http://xiebaochun.github.io/blog/2013/10/22/unifying-touch-and-mouse-how-pointer-envents-will-make-cross-browser-touch-support-easy/"/>
+    <updated>2013-10-22T17:13:00+08:00</updated>
+    <id>http://xiebaochun.github.io/blog/2013/10/22/unifying-touch-and-mouse-how-pointer-envents-will-make-cross-browser-touch-support-easy</id>
+    <content type="html"><![CDATA[<p><img src="http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-10-46-metablogapi/4300.clip_5F00_image001_5F00_thumb_5F00_4E7D303E.png" alt="" /></p>
+
+<p>原文地址：<a href="http://blogs.msdn.com/b/davrous/archive/2013/10/21/handling-touch-in-your-html5-apps-thanks-to-the-pointer-events-of-ie10-and-windows-8.aspx">http://blogs.msdn.com/b/davrous/archive/2013/10/21/handling-touch-in-your-html5-apps-thanks-to-the-pointer-events-of-ie10-and-windows-8.aspx</a></p>
+
+<p>译者：晋文格墨</p>
+
+<p>注：译者水平有限，请批评斧正。</p>
+
+<p>我经常听到这样的问题”手机和平板上这么多触控功能，我要从哪开始着手研究”,还有“开发一个触控输入最简单的方法是什么？”答案是：“很复杂。”</p>
+
+<!--more-->
+]]></content>
+  </entry>
+  
+</feed>

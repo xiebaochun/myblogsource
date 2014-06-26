@@ -1,0 +1,155 @@
+---
+layout: post
+title: "easel.js游戏（背景切换）"
+date: 2013-09-12 16:45
+comments: true
+categories: web
+---
+这是一个背景切换的例子：
+<!--more-->
+html:
+
+        <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8"/>
+    <link href="css/mindGame.css" type="text/css" rel="stylesheet"></link>
+    <script src="http://code.createjs.com/easeljs-0.6.0.min.js"></script>
+    <script src="script/mindgame.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+    <body onload="init();">
+    <canvas id="gameCanvas" width="640px" height="384px">
+    </canvas>
+    <p>If you click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+    </body>
+    </html>
+
+js:
+    
+    //var background;
+    var stage;
+    var gameCanvas;
+    var ctx;
+    var output;
+    var background;
+    var bg_index=0;
+    var BackGrounds=new Array();  
+    var Options=new Array();
+    var background_change_speed=0.03;
+    var gameState="start";
+    var textBox1;
+    var isChange=false;
+    var targetBG_index_switchTo=1;
+    function textBox()
+    {
+    	this.output=stage.addChild(new createjs.Text("","18px monospace","#000"));
+    this.output.lineHeight=15;
+    this.output.lineWidth=200;
+    this.output.textBaseline="top";
+    this.output.x=10;
+    this.output.y=10;
+    this.output.text="this is textBox1";
+    }
+    function BackGround(file)
+    {
+    this.Bitmap=new createjs.Bitmap(file);
+    this.Bitmap.scaleX=0.5;
+    this.Bitmap.scaleY=0.5;
+    //this.bg_index=1;
+    }
+    function init(){
+    	//code here
+    	//background=new Image();
+    	//background.src="Images/BackGrounds/bg-01.png";
+    	$("#gameCanvas").click(function(){
+    		//$(this).hide();
+    if(BackGrounds[bg_index].Bitmap.alpha>=1){
+     isChange=true;
+      targetBG_index_switchTo++;
+    }  
+    	});   
+    stage=new createjs.Stage("gameCanvas");
+    for(var i=0;i<7;i++){
+    var j=i+1;
+     BackGrounds[i]=new BackGround("Images/BackGrounds/bg-0"+j+".png");
+     BackGrounds[i].Bitmap.visible=false;
+      BackGrounds[i].Bitmap.alpha=0.2;
+     stage.addChild(BackGrounds[i].Bitmap);
+    }
+     BackGrounds[0].Bitmap.visible=true;
+     BackGrounds[0].Bitmap.alpha=1;
+    createjs.Ticker.addEventListener("tick",gameUpdate);
+    //createjs.Ticker.setInterval(30);
+    createjs.Ticker.setFPS(40);
+    //stage.update();
+    //var ME=new createjs.MouseEvent(click,0,0,gameCanvas,)
+    //UI code
+    output=stage.addChild(new createjs.Text("","18px monospace","#000"));
+    output.lineHeight=15;
+    output.lineWidth=100;
+    output.textBaseline="top";
+    output.x=stage.canvas.width-output.lineWidth-10;
+    output.y=20;
+    
+    textBox1=new textBox();
+    }
+    function gameUpdate(){
+    	stage.update();
+    backGroundUpdate();
+    	output.text="FPS:"+createjs.Ticker.getFPS()+"\n"+"bg_index:"+bg_index.toString();
+    //+background.bg_index.tostring();  
+    switch(gameState)
+    {
+    case "start":
+    gameState="choose";
+    break;
+    case "choose":
+    textBox1.output.text="isChange:"+isChange;
+    break;
+    case "response":
+    break;
+    case "result":
+    break;
+    case "tryAgain":
+    break;
+    case "gameOver":
+    break;
+    default:
+    textBox1.output.text="rrr";
+    }
+    }1
+    function backGroundUpdate()
+    {
+    if(isChange==true)
+    {
+    //isChange=false;
+    if(BackGrounds[bg_index].Bitmap.visible==true)
+    {
+       BackGrounds[bg_index].Bitmap.alpha-=background_change_speed;
+    }
+     
+    if(BackGrounds[bg_index].Bitmap.alpha<=0.2)
+    {
+    BackGrounds[bg_index].Bitmap.visible=false;
+    BackGrounds[targetBG_index_switchTo].Bitmap.visible=true;
+    BackGrounds[targetBG_index_switchTo].Bitmap.alpha+=background_change_speed;
+    if(BackGrounds[targetBG_index_switchTo].Bitmap.alpha>=1)
+    {
+    isChange=false;
+    bg_index=targetBG_index_switchTo;
+    }
+    }
+    }
+    }
+
+css:
+           
+    body{
+    	 background-color:#aabbaa;
+    }
+    #gameCanvas{
+    	background-color:rgba(0,0,0,1);
+    }
