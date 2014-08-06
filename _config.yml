@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://xiebaochun.github.io
-title: 微个日光日的博客
+title: 微个日光日
 subtitle: one blog for share.
 author: Nicholas
 simple_search: http://google.com/search
-description: 专注于前端移动互联网游戏开发
+description: 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -29,7 +29,7 @@ email:
 root: /public
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: ../website/public
+destination: ../blog
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories

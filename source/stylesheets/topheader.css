@@ -7,14 +7,39 @@ ol,ul {
 	padding: 0;
 	list-style: none
 }
-#header {
-	background: url(https://raw.githubusercontent.com/xiebaochun/juerryimages/master/header_bg_20x150.png) repeat-x top;
+@media screen and (max-width: 700px) {
+	#topheader {
+		visibility:hidden;
+	}
+	
+}
+.left-col,.mid-col{
+	margin-top:150px;
+
+}
+#topheader {
+	width: 100%;
+	position:fixed;  
+    margin:0 auto;  
+    left:0;  
+    right:0;
+	background: url(http://git.oschina.net/juerry/websiteimages/raw/master/header_bg_20x150.png) repeat-x top;
 	height: 150px;
 	margin-bottom: 10px;
-	_background-image: url(https://raw.githubusercontent.com/xiebaochun/juerryimages/master/header_bg_20x150.png);
+	_background-image: url(http://git.oschina.net/juerry/websiteimages/raw/master/header_bg_20x150.png);
 	min-width: 960px;
+	z-index:1;
+	
 }
-#header .info_wrap {
+#topheader #navigation a{
+    color: #2a2a2a;
+	}
+
+#topheader #navigation a:hover{
+    color: #ff5b97;
+}
+#topheader .info_wrap {
+	font: 12px/1.6 tahoma,arial,sans-serif;
 	position: relative;
 	height: 31px;
 	z-index: 1;
@@ -256,7 +281,7 @@ padding:0px 10px 0px 10px;
 	position:relative
 }
 .logo{
-	background:url(https://raw.githubusercontent.com/xiebaochun/juerryimages/master/logo_206x36.png) no-repeat 0 0;
+	background:url(http://git.oschina.net/juerry/websiteimages/raw/master/logo_206x36.png) no-repeat 0 0;
 	display:inline;
 	float:left;
 	line-height:100em;
@@ -401,7 +426,7 @@ padding:0px 10px 0px 10px;
 }
 .c {
 	border-bottom: 3px solid #ff6ca2;
-	color: #ff5b97
+	color: #ff5b97 !important;
 }
 .nav_list li.nav_item .new {
 	float: left;

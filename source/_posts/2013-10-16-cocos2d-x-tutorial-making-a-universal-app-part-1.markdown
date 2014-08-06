@@ -10,10 +10,7 @@ categories: ios
 击打这个地鼠！
 
 原文地址：[http://www.raywenderlich.com/48180/cocos2d-x-tutorial-making-a-universal-app-part-1](http://www.raywenderlich.com/48180/cocos2d-x-tutorial-making-a-universal-app-part-1)
-
-译者：晋文格墨   
-
-注：译者水平有限，如有错误，请批评斧正。
+  
 
 本教程介绍的是如何使用Cocos2D-iPhone创建一个打地鼠游戏，但是为什么要费这么大力气创建一个Cocos2D-X版本的呢？我认为有以下几个原因：
 <!--more-->

@@ -10,7 +10,7 @@ categories: web
 
 原文地址：[http://www.script-tutorials.com/e-commerce-website-designs-2013/](http://www.script-tutorials.com/e-commerce-website-designs-2013/)
 
-译者：晋文格墨
+译者：微个日光日
 
 <!--more-->
 

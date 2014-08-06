@@ -6,21 +6,14 @@ comments: true
 categories: web 
 ---
 
-![](http://www.script-tutorials.com/demos/363/thumb.png)
-
-原文：[http://www.script-tutorials.com/html5-audio-player-with-playlist/](http://www.script-tutorials.com/html5-audio-player-with-playlist/)
-
-译者：[晋文格墨](http://xiebaochun.github.io/)
-
-<!--more-->
+![](https://raw.githubusercontent.com/xiebaochun/juerryimages/master/html5/audioplayer/bg.jpg)
 
 也许对于很多人来说这是人生中第一次制作音频播放器。通常你会选择一个可用的播放器，一般是flash播放器。但是你也许已经发现，flash播放器在移动设备（如iPhone/Android)上不能很好的工作。今天，我将教你如何使用HTML5技术制作你自己的音频播放器。这个播放器包含了以下元素：title(标题），author(作家），cover（封面），基本的控制（播放/暂停，前进/后退），两个滑动条（jQuery UI sliders）:音量滑动条和一个歌曲跟踪器(song tracker)，还有一个歌曲列表。
+<!--more-->
 
 ### 预览 ###
 
-[在线演示](http://www.script-tutorials.com/demos/363/)
-
-[下载例子](http://www.script-tutorials.com/demos/363/source.zip)
+[在线演示](http://xiebaochun.github.io/mylab/HTML5/AudioPlayer/)
 
 我相信你应该知道如何使用<audio>这个标准的标签来创建一个简单的音频播放器。在本教程里，我们会使用一个特殊的标签，我将使用所有所需的控制元素来创建我们的播放器。我们将会使用javascript写好的一个音频元素的事件处理来控制这个播放器。
 
@@ -332,9 +325,8 @@ js/main.js
 
 ![](http://www.script-tutorials.com/demos/363/images/spr.png)
 
-[在线演示](http://www.script-tutorials.com/demos/363/)
+[在线演示](http://xiebaochun.github.io/mylab/HTML5/AudioPlayer/)
 
-[下载DEMO](http://www.script-tutorials.com/demos/363/source.zip)
 
 
 ### 结语： ###

@@ -1,4 +1,12 @@
 <section>
-  <h1>Categories</h1>
+  <!-- <h1>Categories</h1> -->
+  <h1>分类</h1>
     <ul id="category-list">{% category_list counter:true %}</ul>
+    <script type="text/javascript"> 
+           $("#category-list li").each(function()
+           {
+                $(this).children().attr("href","/blog"+$(this).children().attr("href"));
+              
+           });
+    </script>
 </section>

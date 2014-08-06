@@ -10,7 +10,7 @@ categories: web
 
 原文地址：[http://www.script-tutorials.com/whirling-dropdown-menu/](http://www.script-tutorials.com/whirling-dropdown-menu/)
 
-译者：[晋文格墨](http://xiebaochun.github.io/)
+译者：[微个日光日](http://xiebaochun.github.io/)
 
 <!--more-->
 

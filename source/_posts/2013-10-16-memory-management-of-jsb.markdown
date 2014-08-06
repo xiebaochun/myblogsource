@@ -7,7 +7,6 @@ categories: ios
 ---
 原文地址：[http://www.cocos2d-x.org/wiki/Memory_Management_of_JSB](http://www.cocos2d-x.org/wiki/Memory_Management_of_JSB)
 
-译者：晋文格墨 
 
 注：因译者水平有限，如有错误，请批评指正。
 
